@@ -1,4 +1,4 @@
-# burn-movie
+# search-movie
 
 ## Project setup
 ```
