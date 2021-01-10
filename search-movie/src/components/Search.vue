@@ -11,7 +11,7 @@
         autofocus
       />
       <input
-        class="button is-primary m-2"
+        class="button is-primary"
         type="submit"
         v-on:click="search"
         value="Buscar"
