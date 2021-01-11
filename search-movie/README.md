@@ -47,3 +47,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
    $ npm run serve
    ```   
    - Criado por Daniel Freitas Ferreira [Linkedin](https://www.linkedin.com/in/daniel-freitas-ferreira/)
+   - Perfil burh [Burh](https://burh.com.br/danielferreira39)
