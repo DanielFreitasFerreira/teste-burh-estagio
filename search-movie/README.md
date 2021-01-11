@@ -46,3 +46,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     ```bash - http://localhost:8083/
    $ npm run serve
    ```   
+   - Criado por Daniel Freitas Ferreira [Linkedin](https://www.linkedin.com/in/daniel-freitas-ferreira/)
