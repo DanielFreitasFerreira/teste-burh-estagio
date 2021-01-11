@@ -11,7 +11,7 @@
         autofocus
       />
       <input
-        class="button is-primary"
+        class="button is-primary m-4"
         type="submit"
         v-on:click="search"
         value="Buscar"
@@ -67,4 +67,7 @@ export default {
 };
 </script>
 <style scoped>
+  .label {
+    text-align: center;
+  }
 </style>
