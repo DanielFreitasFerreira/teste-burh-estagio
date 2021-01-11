@@ -1,21 +1,22 @@
 <template>
   <div class="field" id="search">
-    <label class="label">Buscar título de filmes:</label>
-    <div class="control">
-      <input
-        class="input"
-        v-model="text"
-        v-on:keyup.enter="search"
-        type="text"
-        required
-        autofocus
-      />
-      <input
-        class="button is-primary m-4"
-        type="submit"
-        v-on:click="search"
-        value="Buscar"
-      />
+    <div class="search__control">
+      <label class="label">Buscar título de filmes:</label>
+        <input
+          class="input"
+          v-model="text"
+          v-on:keyup.enter="search"
+          type="text"
+          required
+          autofocus
+        />
+
+        <input
+          class="button is-primary is-fullwidth"
+          type="submit"
+          v-on:click="search"
+          value="Buscar"
+        />
     </div>
 
     <div class="p-2 m-2" v-if="error != null">
@@ -69,5 +70,20 @@ export default {
 <style scoped>
   .label {
     text-align: center;
+  }
+  #search {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 40vh;
+    transition: margin 1s;
+    justify-content: center; */
+  }
+  .search__control {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .is-fullwidth {
+    margin: 8px 0 20px 0;
   }
 </style>

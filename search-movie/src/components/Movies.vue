@@ -58,6 +58,7 @@ export default {
       axios.get(`${baseApiUrl}${ApiKey}&i=${id}`).then((res) => {
         this.info = res.data;
         this.show = false;
+        this.movies = true;
       });
     },
   },
@@ -88,4 +89,5 @@ export default {
     color: #fff;
     cursor: pointer;
   }
+
 </style>
