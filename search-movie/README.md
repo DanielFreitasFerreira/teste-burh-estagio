@@ -17,7 +17,7 @@
 # Preview 🛰
 
 <p align="center">
- <img src="./src/assets/vid1.gif" />
+ <img src="doc/vid1.gif" />
 
 ## 🚀 Technology
 
