@@ -17,11 +17,13 @@
               <p>Título: {{ movie.Title }}</p>
               <small>Ano lançamento: {{ movie.Year }}</small>
               <br />
-              <input
-                v-on:click="details(movie.imdbID)"
-                type="button"
-                value="+ detalhes"
-              />
+              <div>
+                <input
+                  v-on:click="details(movie.imdbID)"
+                  type="button"
+                  value="+ detalhes"
+                />
+              </div>
             </div>
           </div>
         </article>
@@ -65,5 +67,25 @@ export default {
 <style>
   .columns {
     justify-content: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content small {
+    margin-bottom: 15px;
+  }
+  .content div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content input {
+    background: #bd14bd;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
   }
 </style>
